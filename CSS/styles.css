@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+   background-color: black;
 }
 
 header{
@@ -24,7 +24,7 @@ nav{
 
 main{
     clear: right;
-   /* background-color: #B96AC9;*/
+   background-color: white;
     
     padding: 2%;
     font-size: 1.5em;
@@ -87,22 +87,64 @@ grid-template-columns: 50% 50% ;  /* it specify the size of each column */
 .grid-item{
     display: inline-block;
    padding: 2%;
-
+   /*box-shadow: 0 3px 8px 0 rgb(0 0 0 / 50%);*/
 }
-.step-grid {
+#requirements{
+    box-shadow: 0 3px 8px 0 rgb(0 0 0 / 50%);
+    border-radius: 2em;
+}
+#step_guide{
+    box-shadow: 0 3px 8px 0 rgb(225 17 162 / 50%);
+    border-radius: 2em;
+}
+.but 
+{
+    border-radius: 2em;
+    border: 2px solid #ffb4a2;
+}
+.buto
+{
+    border-radius: 1em;
+    border: 3px solid #1cc75e;
+}
+.bto{
+    border-radius: 2.2em;
+}
+/*.step-grid {
     /* display: table-cell; */
     /* border: dashed; */
     /* display: grid; */
     /* grid-template-columns: repeat(3, 1fr); */
     /* grid-gap: 10px; */
-    display: table-cell;
+   /* display: table-cell;
     grid-template-columns: repeat(2, 2fr);
     grid-gap: 10%;
     /* padding-block: initial; */
-    padding: 3em;
+    /*padding: 3em;
     FONT-WEIGHT: 100;
     
     border: dotted;
+}*/
+.tvs {
+    margin-left: -17px;
+    width: 74px;
+    height: 20px;
+    /* border: 1px solid #0c0c0cf6; */
+    /* fill: #1c87c9; */
+    border-radius: 0px 10px 0 0;
+    border-top: 2px solid #ffb4a2;
+    border-right: 2px solid #ffb4a2;
+}
+
+.hori{
+    margin-left: 2em;
+    width: 0px;
+    height: 20px;
+    border: 1px solid #0c0c0cf6;
+    
+}
+img{
+    border-radius: 9em 0 0 0;
 }
 table th ,td{
     border: 1px solid black;
