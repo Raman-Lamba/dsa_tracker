@@ -63,13 +63,13 @@ nav ul li a:hover {
 footer p{
     font-size: 1em;
     text-align: center;
-    color:rgb(160, 27, 27);
+    color:rgba(92, 186, 230, 0.5);
     padding: 0 1em;
 }
 
 
 footer p a{
-    color: rgb(133, 19, 19);
+    color: rgba(92, 186, 230, 0.5);
     text-decoration:double;
 }
 #image1{
@@ -90,58 +90,60 @@ grid-template-columns: 50% 50% ;  /* it specify the size of each column */
    /*box-shadow: 0 3px 8px 0 rgb(0 0 0 / 50%);*/
 }
 #requirements{
-    box-shadow: 0 3px 8px 0 rgb(0 0 0 / 50%);
+    box-shadow: 0 3px 40px 0 rgba(92, 186, 230, 0.5);
     border-radius: 2em;
 }
 #step_guide{
-    box-shadow: 0 3px 8px 0 rgb(225 17 162 / 50%);
+    box-shadow: 0 3px 40px 0 rgba(92, 186, 230, 0.5);
     border-radius: 2em;
 }
 .but 
 {
     border-radius: 2em;
-    border: 2px solid #ffb4a2;
+    border: 2px solid rgba(92, 186, 230, 0.5);
+    background-color: blanchedalmond;
 }
 .buto
 {
     border-radius: 1em;
     border: 3px solid #1cc75e;
+    background-color: lemonchiffon;
+    width: 30%;
 }
 .bto{
     border-radius: 2.2em;
+    background-color: floralwhite;
+    margin-left: 3em;
 }
-/*.step-grid {
-    /* display: table-cell; */
-    /* border: dashed; */
-    /* display: grid; */
-    /* grid-template-columns: repeat(3, 1fr); */
-    /* grid-gap: 10px; */
-   /* display: table-cell;
-    grid-template-columns: repeat(2, 2fr);
-    grid-gap: 10%;
-    /* padding-block: initial; */
-    /*padding: 3em;
-    FONT-WEIGHT: 100;
-    
-    border: dotted;
-}*/
+.bigt{
+    border-radius: 2.2em;
+    background-color: floralwhite;
+}
+.step-grid {
+   position: relative;
+   left: 30%;
+}
 .tvs {
     margin-left: -17px;
-    width: 74px;
+    width: 14em;
     height: 20px;
     /* border: 1px solid #0c0c0cf6; */
     /* fill: #1c87c9; */
     border-radius: 0px 10px 0 0;
-    border-top: 2px solid #ffb4a2;
-    border-right: 2px solid #ffb4a2;
+    border-top: 2px solid rgba(92, 186, 230, 0.5);
+    border-right: 2px solid rgba(92, 186, 230, 0.5);
 }
 
 .hori{
-    margin-left: 2em;
+    margin-left: 4.55em;
     width: 0px;
     height: 20px;
     border: 1px solid #0c0c0cf6;
     
+}
+.center{
+    position: relative;
+    left : 37%;
 }
 img{
     border-radius: 9em 0 0 0;
