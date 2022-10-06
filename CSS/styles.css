@@ -87,7 +87,7 @@ grid-template-columns: 50% 50% ;  /* it specify the size of each column */
 .grid-item{
     display: inline-block;
    padding: 2%;
-   /*box-shadow: 0 3px 8px 0 rgb(0 0 0 / 50%);*/
+   
 }
 #requirements{
     box-shadow: 0 3px 40px 0 rgba(92, 186, 230, 0.5);
@@ -155,6 +155,30 @@ table th ,td{
 ul.bot {
     display: inline-flex;
     text-size-adjust: auto;
+}
+h3 {
+    display: block;
+    font-size: 1.6em;
+    margin-block-start: 0.7em;
+    margin-block-end: 0.7em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-family: cursive;
+}
+p.par {
+    font-family: system-ui;
+    font-size: 15px;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    
 }
 /*.conta {
     
